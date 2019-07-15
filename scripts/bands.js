@@ -1,6 +1,6 @@
 let bandNumber = 1
 
-const takeNumber = function (bandName) {
+const takeNumber = (bandName) => {
     const numberAndBand = `${bandNumber}. ${bandName}`
     bandNumber++
     return(numberAndBand)
